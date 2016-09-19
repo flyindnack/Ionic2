@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Chat Chat
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="chat">
+  <button block (click)="openMenu()">Show Action Sheet</button>
+  <button block (click)="openAlert()">Alert</button>
+  <button block (click)="openPrompt()">Alert Prompt</button>
+  <button block (click)="openConfirm()">Alert Confirm</button>
+  <button block danger (click)="openRadio()">Alert Radio</button>
+  <button block danger (click)="openCheck()">Alert Check</button>
+  <button light outline>Outline</button>
+  <button secondary outline>Outline</button>
+  <button clear>Clear</button>
+  <button danger round>Round</button>
+  <button full>Full</button>
+  <button small>Small</button>
+  <button>Default</button>
+  <button large>Large</button>
+  <button light>
+    <ion-icon name="arrow-back"></ion-icon>
+    Back
+  </button>
+  <button>
+    <ion-icon name="arrow-down"></ion-icon>
+  </button>
+  <button>
+    <ion-icon name="arrow-up"></ion-icon>
+  </button>
+</ion-content>
